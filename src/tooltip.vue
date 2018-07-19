@@ -13,9 +13,6 @@ export default {
       styleObj: this.styles,
     };
   },
-  beforeCreate() {
-      console.log('Component mounted.')
-  },
   render(createElement) {
     var attributes = this.notDisabled ? {
       "data-balloon": this.attrTooltip,
