@@ -7,8 +7,8 @@ export default {
       domObjType: this.type,
       htmlParent: this.parent,
       attrTooltip: this.tooltipText,
-      attrLength: this.length,
-      attrPosition: this.position,
+      attrLength: this.length !== undefined ? this.length : "small",
+      attrPosition: this.position !== undefined ? this.position : "up",
       notDisabled: !this.disabled,
       styleObj: this.styles,
     };
