@@ -1,6 +1,12 @@
 # vue-light-tooltip
 A simple and lightweight tooltip for Vue JS.
 
+### Install vue-light-tooltip
+
+```
+npm install --save vue-light-tooltip
+```
+
 ### Using vue-light-tooltip
 * type = type of parent element on which the tooltip appears when hovered upon example - span, button etc.
 * parent = text in parent element. (HTML is also supported)
